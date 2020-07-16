@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingSetMakerDef>
+    <defName>MapGen_AncientRuinsTools</defName>
+    <root Class="ThingSetMaker_Sum">
+      <options>
+        <li>
+          <chance>0.4</chance>
+          <thingSetMaker Class="ThingSetMaker_Count">
+            <fixedParams>
+              <techLevel>Industrial</techLevel>
+              <filter>
+                <categories>
+                  <li>Tools</li>
+                </categories>
+              </filter>
+              <countRange>
+                <min>1</min>
+                <max>2</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+</Defs>

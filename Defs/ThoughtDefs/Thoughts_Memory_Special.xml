@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>Trunken_WearingWhip</defName>
+    <workerClass>Gimmicks.ThoughtWorker_WearingWhip</workerClass>
+    <stages>
+      <li>
+        <label>Moviestar</label>
+        <description>I'm feeling like a moviestar with my whip.</description>
+        <baseMoodEffect>+5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

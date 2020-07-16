@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pillow -->
+  <Tool_Pillow.label>Ergonomisches Kissen</Tool_Pillow.label>
+  <Tool_Pillow.description>Gemütlich und weich in seiner Gesamtheit hilft es seinem Besitzer in tiefen und komfortablen Schlaf zu versinken.</Tool_Pillow.description>
+  <Tool_Pillow.tools.0.label>Gewicht</Tool_Pillow.tools.0.label>
+  <!-- Whip -->
+  <Tool_Whip.label>Peitsche</Tool_Whip.label>
+  <Tool_Whip.description>Eine starkes und doch flexibles Seil zum Überspringen von tiefen Schluchten, kontinuierlichem Hüpfen und dem Dressieren von Tieren. Mit so einem Werkzeug kommt man sich vor wie ein Filmstar.</Tool_Whip.description>
+  <Tool_Whip.tools.0.label>Schnalzer</Tool_Whip.tools.0.label>
+  <!-- Fan -->
+  <Tool_Fan.label>Fächer</Tool_Fan.label>
+  <Tool_Fan.description>Hält einen kühl und man sieht cool aus, während man es tut.</Tool_Fan.description>
+  <Tool_Fan.tools.0.label>Abschirmung</Tool_Fan.tools.0.label>
+  <!-- Flowers -->
+  <Tool_Flowers.label>Blumenstrauß</Tool_Flowers.label>
+  <Tool_Flowers.description>Ein konservierter Blumenstrauß um jemanden ein Lächeln aufs Gesicht zu zaubern.</Tool_Flowers.description>
+  <Tool_Flowers.tools.0.label>Dorn</Tool_Flowers.tools.0.label>
+  <!-- Encyclopedia -->
+  <Tool_Encyclopedia.label>Interstellare Enzyklopädie</Tool_Encyclopedia.label>
+  <Tool_Encyclopedia.description>Eine nützliche Sammlung aus allerhand Wissen und Fakten über die Galaxis und ihren Ursprung, mit langen Kapiteln über ihre Technologie und Geschichte. Es wird nicht dabei helfen, das Rad neu zu erfinden, aber in den Händen des richtigen Wissenschaftlers wird sich die Forschung deutlich verbessern!\n\nAuf Seite 42 steht die Antwort auf alle Fragen geschrieben... Es ist jedohc usnlererlvih gedchrbn udn kuam uz etnfzfern... Meine Güte.</Tool_Encyclopedia.description>
+  <Tool_Encyclopedia.tools.0.label>Buchumschlag</Tool_Encyclopedia.tools.0.label>
+  <!-- How To -->
+  <Tool_How_To.label>How To</Tool_How_To.label>
+  <Tool_How_To.description>Das How To for dummies ist ein äußerst nützliches Lehrbuch um selbst solchen Abhilfe zu verschaffen, die mit ausgeprägten Konzentrationsschwächen und Aufmerksamkeitsdefiziten geschlagen wurden. Es hilft ihnen dabei Inhalte besser aufzufassen und zu verinnerlichen.</Tool_How_To.description>
+  <Tool_How_To.tools.0.label>Buchumschlag</Tool_How_To.tools.0.label>
+  <!-- Coupon Book -->
+  <Tool_Coupon_Book.label>Coupon Buch</Tool_Coupon_Book.label>
+  <Tool_Coupon_Book.description>Ein Buch voller Gutscheine und Coupons. Spare Hunderte Credits mit diesen limitierten und exklusiven Angeboten! Kleingedrucktes: Nur gültig bei teilnehmenden Händlern.</Tool_Coupon_Book.description>
+  <Tool_Coupon_Book.tools.0.label>Buchumschlag</Tool_Coupon_Book.tools.0.label>
+  <!-- Laptop -->
+  <Tool_Laptop.label>Framework Laptop</Tool_Laptop.label>
+  <Tool_Laptop.description>Laptop mit Zugang zum interstellaren Framework. Komplett mit Web Hookup Universal Antworter. Dingens.</Tool_Laptop.description>
+  <Tool_Laptop.tools.0.label>Gehäuse</Tool_Laptop.tools.0.label>
+  <!-- Skill Saw -->
+  <Tool_Skill_Saw.label>Skill Saw</Tool_Skill_Saw.label>
+  <Tool_Skill_Saw.description>Lässt sich laut Hersteller passend zu jedem Flanellhemd tragen, solange es kariert ist. Schneidet durch Holz wie durch Butter.</Tool_Skill_Saw.description>
+  <Tool_Skill_Saw.tools.0.label>Griff</Tool_Skill_Saw.tools.0.label>
+  <Tool_Skill_Saw.tools.1.label>Sägeblatt</Tool_Skill_Saw.tools.1.label>
+  <!-- Power Drill -->
+  <Tool_Power_Drill.label>Power Drill</Tool_Power_Drill.label>
+  <Tool_Power_Drill.description>Der beste und schnellste Weg um zu bauen und wieder abzureißen. Man kann auch einfach eine Menge Löcher in alles machen was man findet. Sollte man nicht vergessen.</Tool_Power_Drill.description>
+  <Tool_Power_Drill.tools.0.label>handle</Tool_Power_Drill.tools.0.label>
+  <Tool_Power_Drill.tools.1.label>Bohrer</Tool_Power_Drill.tools.1.label>
+  <!-- Thimble -->
+  <Tool_Scissors.label>Scheere</Tool_Scissors.label>
+  <Tool_Scissors.description>Elegante Scheere für Schneider. Weniger Pieksen bedeutet mehr Nähen. Zitat aus Das tapfere Schneiderlein.</Tool_Scissors.description>
+  <Tool_Scissors.tools.0.label>Klinge</Tool_Scissors.tools.0.label>
+  <!-- Whistle -->
+  <Tool_Whistle.label>Hundepfeife</Tool_Whistle.label>
+  <Tool_Whistle.description>Eine Ultraschallpfeife die Hochfrequenzen wirft. Wenn man sie bläst hört man nichts, Tiere mit deutlich besserem Gehörsinn schon.</Tool_Whistle.description>
+  <Tool_Whistle.tools.0.label>Hülle</Tool_Whistle.tools.0.label>
+  <!-- Screwdriver -->
+  <Tool_Screwdriver.label>Magnetischer Schraubenzieher</Tool_Screwdriver.label>
+  <Tool_Screwdriver.description>Erhöht die Stabilität von Konstruktionen maßgeblich und erleichtert jedes Bauvorhaben.</Tool_Screwdriver.description>
+  <Tool_Screwdriver.tools.0.label>Griff</Tool_Screwdriver.tools.0.label>
+  <Tool_Screwdriver.tools.1.label>Klinge</Tool_Screwdriver.tools.1.label>
+  <!-- Saw -->
+  <Tool_Saw.label>Fuchsschwanz</Tool_Saw.label>
+  <Tool_Saw.description>Ein universelles Werkzeug das verwendet wird um Holz zu sägen. Benötigt einen kräftigen Arm.</Tool_Saw.description>
+  <Tool_Saw.tools.0.label>Griff</Tool_Saw.tools.0.label>
+  <Tool_Saw.tools.1.label>Sägeblatt</Tool_Saw.tools.1.label>
+  <!-- Chefs Knife -->
+  <Tool_Chefs_Knife.label>Küchenmesser</Tool_Chefs_Knife.label>
+  <Tool_Chefs_Knife.description>Eine spitz zulaufendes Messer mit einer sehr scharfen Seite. Es hat eine gebogene Klinge um das Zerhacken von Gemüse zu vereinfachen.</Tool_Chefs_Knife.description>
+  <Tool_Chefs_Knife.tools.0.label>Griff</Tool_Chefs_Knife.tools.0.label>
+  <Tool_Chefs_Knife.tools.1.label>Kante</Tool_Chefs_Knife.tools.1.label>
+  <Tool_Chefs_Knife.tools.2.label>Spitze</Tool_Chefs_Knife.tools.2.label>
+  <!-- Skinning Knife -->
+  <Tool_Skinning_Knife.label>Kürschnermesser</Tool_Skinning_Knife.label>
+  <Tool_Skinning_Knife.description>Ein dünnes und flexibles Messer mit dem sich spielend leicht die Haut von Tierkadavern abziehen lässt. Es ist durch sein durchdachtes Design effizienter beim Gerben.</Tool_Skinning_Knife.description>
+  <Tool_Skinning_Knife.tools.0.label>Griff</Tool_Skinning_Knife.tools.0.label>
+  <Tool_Skinning_Knife.tools.1.label>Kante</Tool_Skinning_Knife.tools.1.label>
+  <Tool_Skinning_Knife.tools.2.label>Spitze</Tool_Skinning_Knife.tools.2.label>
+  <!-- Sickle -->
+  <Tool_Sickle.label>Druiden Sichel</Tool_Sickle.label>
+  <Tool_Sickle.description>Eine scharfe kurvige Klinge, die wie ein Haken geformt ist. Sie wird seit Urzeiten zum Kräutersammeln verwendet und erleichtert die Feldarbeit erheblich.</Tool_Sickle.description>
+  <Tool_Sickle.tools.0.label>Griff</Tool_Sickle.tools.0.label>
+  <Tool_Sickle.tools.1.label>Kante</Tool_Sickle.tools.1.label>
+  <Tool_Sickle.tools.2.label>Spitze</Tool_Sickle.tools.2.label>
+  <!-- Shovel -->
+  <Tool_Shovel.label>Schaufel</Tool_Shovel.label>
+  <Tool_Shovel.description>Ein Werkzeug welches Erde von A nach B bewegt. Auch zum Ein- und Ausgraben geeignet.</Tool_Shovel.description>
+  <Tool_Shovel.tools.0.label>Griff</Tool_Shovel.tools.0.label>
+  <Tool_Shovel.tools.1.label>Seite</Tool_Shovel.tools.1.label>
+  <Tool_Shovel.tools.2.label>Spitze</Tool_Shovel.tools.2.label>
+  <Tool_Shovel.tools.3.label>Endstück</Tool_Shovel.tools.3.label>
+</LanguageData>

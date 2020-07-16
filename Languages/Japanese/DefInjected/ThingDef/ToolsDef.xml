@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pillow -->
+  <Tool_Pillow.label>枕</Tool_Pillow.label>
+  <Tool_Pillow.description>やわらかくて心地よい寝心地です。</Tool_Pillow.description>
+  <Tool_Pillow.tools.featherweight.label>ふわふわ</Tool_Pillow.tools.featherweight.label>
+  <!-- Whip -->
+  <Tool_Whip.label>鞭</Tool_Whip.label>
+  <Tool_Whip.description>丈夫で柔軟性のある皮製のロープで、打ったり巻きつけることができるように設計されています。まるで映画スターのような気分にさせてくれます。</Tool_Whip.description>
+  <Tool_Whip.tools.cracker.label>クラッカー</Tool_Whip.tools.cracker.label>
+  <Tool_Whip.verbs.Verb_Shoot.label>鞭</Tool_Whip.verbs.Verb_Shoot.label>
+  <Tool_WhipSlash.label>鞭の衝撃</Tool_WhipSlash.label>
+  <!-- Fan -->
+  <Tool_Fan.label>扇子</Tool_Fan.label>
+  <Tool_Fan.description>扇いで冷静さと涼しさを維持しましょう。</Tool_Fan.description>
+  <Tool_Fan.tools.guard.label>親骨</Tool_Fan.tools.guard.label>
+  <!-- Flowers -->
+  <Tool_Flowers.label>花束</Tool_Flowers.label>
+  <Tool_Flowers.description>人を笑顔にする束ねたドライフラワーの束です。</Tool_Flowers.description>
+  <Tool_Flowers.tools.thorn.label>トゲ</Tool_Flowers.tools.thorn.label>
+  <!-- Encyclopedia -->
+  <Tool_Encyclopedia.label>銀河大辞典</Tool_Encyclopedia.label>
+  <Tool_Encyclopedia.description>多くの事実や技術、歴史の有用な資料です。車輪を再度発明する必要はありません。これらのいずれかのページが研究の効率化に役立ちます。</Tool_Encyclopedia.description>
+  <Tool_Encyclopedia.tools.cover.label>表紙</Tool_Encyclopedia.tools.cover.label>
+  <!-- How To -->
+  <Tool_How_To.label>マニュアル本</Tool_How_To.label>
+  <Tool_How_To.description>正しいやり方を教えるのに役立つ本。赤ん坊のおしゃぶりです。</Tool_How_To.description>
+  <Tool_How_To.tools.cover.label>表紙</Tool_How_To.tools.cover.label>
+  <!-- Coupon Book -->
+  <Tool_Coupon_Book.label>クーポン帳</Tool_Coupon_Book.label>
+  <Tool_Coupon_Book.description>この期間限定の割引によって、売り買いや取引などで数百シルバーを節約できます。加盟しているトレーダーだけに有効です。</Tool_Coupon_Book.description>
+  <Tool_Coupon_Book.tools.cover.label>表紙</Tool_Coupon_Book.tools.cover.label>
+  <!-- Laptop -->
+  <Tool_Laptop.label>ノート型PC</Tool_Laptop.label>
+  <Tool_Laptop.description>衛星回線で万能解答ウェブサイト「Dings(のろまの隠語)」 に接続します。</Tool_Laptop.description>
+  <Tool_Laptop.tools.case.label>ケース</Tool_Laptop.tools.case.label>
+  <!-- Skill Saw -->
+  <Tool_Skill_Saw.label>電動丸ノコ</Tool_Skill_Saw.label>
+  <Tool_Skill_Saw.description>バターのように木を切り、バターのように...。まあ、そんなことはしない方がいいでしょう。</Tool_Skill_Saw.description>
+  <Tool_Skill_Saw.tools.handle.label>持ち手</Tool_Skill_Saw.tools.handle.label>
+  <Tool_Skill_Saw.tools.sawteeths.label>ノコギリ歯</Tool_Skill_Saw.tools.sawteeths.label>
+  <!-- Power Drill -->
+  <Tool_Power_Drill.label>電動ドリル</Tool_Power_Drill.label>
+  <Tool_Power_Drill.description>建物を建築するための最良で最速の方法は、ひたすら多くの穴を開けることです。</Tool_Power_Drill.description>
+  <Tool_Power_Drill.tools.handle.label>持ち手</Tool_Power_Drill.tools.handle.label>
+  <Tool_Power_Drill.tools.drill.label>ドリル</Tool_Power_Drill.tools.drill.label>
+  <!-- Scissors -->
+  <Tool_Scissors.label>ハサミ</Tool_Scissors.label>
+  <Tool_Scissors.description>持つのが楽な切れ味抜群な裁縫ハサミです。指ぬきが付いているので、ズレが少ない分、縫製がはかどります。</Tool_Scissors.description>
+  <Tool_Scissors.tools.blade.label>刃</Tool_Scissors.tools.blade.label>
+  <!-- Whistle -->
+  <Tool_Whistle.label>ホイッスル</Tool_Whistle.label>
+  <Tool_Whistle.description>吹いても何も聞こえません。しかし動物には聞こえています!</Tool_Whistle.description>
+  <Tool_Whistle.tools.body.label>笛</Tool_Whistle.tools.body.label>
+  <!-- Screwdriver -->
+  <Tool_Screwdriver.label>磁石ドライバー</Tool_Screwdriver.label>
+  <Tool_Screwdriver.description>耐久度と建設の容易さを大幅に改善します。</Tool_Screwdriver.description>
+  <Tool_Screwdriver.tools.handle.label>持ち手</Tool_Screwdriver.tools.handle.label>
+  <Tool_Screwdriver.tools.point.label>先端</Tool_Screwdriver.tools.point.label>
+  <!-- Saw -->
+  <Tool_Saw.label>押切ノコ</Tool_Saw.label>
+  <Tool_Saw.description>木を切るために使えるけれど、木を植えるためには使えないノコギリです。</Tool_Saw.description>
+  <Tool_Saw.tools.handle.label>柄</Tool_Saw.tools.handle.label>
+  <Tool_Saw.tools.edge.label>鋸刃</Tool_Saw.tools.edge.label>
+  <!-- Chefs Knife -->
+  <Tool_Chefs_Knife.label>台所包丁</Tool_Chefs_Knife.label>
+  <Tool_Chefs_Knife.description>野菜を切りやすいように刃をカーブさせた鋭利な切れ味の包丁です。</Tool_Chefs_Knife.description>
+  <Tool_Chefs_Knife.tools.handle.label>柄</Tool_Chefs_Knife.tools.handle.label>
+  <Tool_Chefs_Knife.tools.edge.label>刃</Tool_Chefs_Knife.tools.edge.label>
+  <Tool_Chefs_Knife.tools.point.label>切っ先</Tool_Chefs_Knife.tools.point.label>
+  <!-- Skinning Knife -->
+  <Tool_Skinning_Knife.label>皮剥ぎ用ナイフ</Tool_Skinning_Knife.label>
+  <Tool_Skinning_Knife.description>薄い刃が付いた柔軟性のあるナイフで、素早く効率的に皮に付いた肉を皮から剥ぎ落とせるように設計されています。</Tool_Skinning_Knife.description>
+  <Tool_Skinning_Knife.tools.handle.label>柄</Tool_Skinning_Knife.tools.handle.label>
+  <Tool_Skinning_Knife.tools.edge.label>刃</Tool_Skinning_Knife.tools.edge.label>
+  <Tool_Skinning_Knife.tools.point.label>切っ先</Tool_Skinning_Knife.tools.point.label>
+  <!-- Sickle -->
+  <Tool_Sickle.label>草刈りカマ</Tool_Sickle.label>
+  <Tool_Sickle.description>数千年前から植物の採取や穀物の収穫に使われてきた、伝統的な湾曲した鋭いカマです。</Tool_Sickle.description>
+  <Tool_Sickle.tools.handle.label>柄</Tool_Sickle.tools.handle.label>
+  <Tool_Sickle.tools.edge.label>刃</Tool_Sickle.tools.edge.label>
+  <Tool_Sickle.tools.point.label>切っ先</Tool_Sickle.tools.point.label>
+  <!-- Shovel -->
+  <Tool_Shovel.label>シャベル</Tool_Shovel.label>
+  <Tool_Shovel.description>地面を移動しやすくする掘削用の道具です。</Tool_Shovel.description>
+  <Tool_Shovel.tools.handle.label>柄</Tool_Shovel.tools.handle.label>
+  <Tool_Shovel.tools.edge.label>刃</Tool_Shovel.tools.edge.label>
+  <Tool_Shovel.tools.point.label>切っ先</Tool_Shovel.tools.point.label>
+  <Tool_Shovel.tools.head.label>足掛け</Tool_Shovel.tools.head.label>
+  <!-- Smartphone -->
+  <Tool_Smartphone.label>スマートフォン</Tool_Smartphone.label>
+  <Tool_Smartphone.description>スマートフォンは通信を簡単にして、安く幅広く利用できますが、あなたの持ち物から手放すのは難しいかもしれません。この専用版には、マルチポート・アダプターやグローバル接続先検出、オンライン情報サービスのmpXリスト、そしてイヤホンを重低音で鳴らすサイバー・インターフェイスが付いており、一日中より楽しく過ごせます。\n\nポーンたちはこれを武器として使いたがりませんが、道具として認識されています。</Tool_Smartphone.description>
+</LanguageData>

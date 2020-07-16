@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Gimmicks_TableCrafting.label>ツール製作台</Gimmicks_TableCrafting.label>
+  <Gimmicks_TableCrafting.description>工具や便利な道具を組み立てるための作業台です。</Gimmicks_TableCrafting.description>
+  <Blueprint_Gimmicks_TableCrafting.label>ツール製作台(設計)</Blueprint_Gimmicks_TableCrafting.label>
+  <Blueprint_Install_Gimmicks_TableCrafting.label>ツール製作台(移動先)</Blueprint_Install_Gimmicks_TableCrafting.label>
+  <Frame_Gimmicks_TableCrafting.label>ツール製作台(施行)</Frame_Gimmicks_TableCrafting.label>
+  <Frame_Gimmicks_TableCrafting.description>工具や便利な道具を組み立てるための作業台です。</Frame_Gimmicks_TableCrafting.description>
+</LanguageData>

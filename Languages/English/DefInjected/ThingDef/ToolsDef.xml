@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pillow -->
+
+  <Tool_Pillow.label>pillow</Tool_Pillow.label>
+  <Tool_Pillow.description>Comfy and soft, helps you get a good night sleep.</Tool_Pillow.description>
+  <Tool_Pillow.tools.0.label>featherweight</Tool_Pillow.tools.0.label>
+
+
+  <!-- Whip -->
+
+  <Tool_Whip.label>whip</Tool_Whip.label>
+  <Tool_Whip.description>A strong, flexible cord designed for stinging and restricting. Makes you feel like a movie star.</Tool_Whip.description>
+  <Tool_Whip.tools.0.label>cracker</Tool_Whip.tools.0.label>
+
+  <Tool_WhipSlash.label>whip slash</Tool_WhipSlash.label>
+
+
+  <!-- Fan -->
+
+  <Tool_Fan.label>fan</Tool_Fan.label>
+  <Tool_Fan.description>Keep cool and look cool doing it.</Tool_Fan.description>
+  <Tool_Fan.tools.0.label>guard</Tool_Fan.tools.0.label>
+
+
+  <!-- Flowers -->
+
+  <Tool_Flowers.label>bouquet</Tool_Flowers.label>
+  <Tool_Flowers.description>A bunch of preserved flowers to make someone smile.</Tool_Flowers.description>
+  <Tool_Flowers.tools.0.label>thorn</Tool_Flowers.tools.0.label>
+
+
+  <!-- Encyclopedia -->
+
+  <Tool_Encyclopedia.label>interstellar encyclopedia</Tool_Encyclopedia.label>
+  <Tool_Encyclopedia.description>A useful compilation of many facts, technologies, and histories. No need to reinvent the wheel, one of these will help speed up your research.</Tool_Encyclopedia.description>
+  <Tool_Encyclopedia.tools.0.label>cover</Tool_Encyclopedia.tools.0.label>
+
+
+  <!-- How To -->
+
+  <Tool_How_To.label>how to</Tool_How_To.label>
+  <Tool_How_To.description>A useful book for teaching your pawns how to do it properly. Failsafe for dummies.</Tool_How_To.description>
+  <Tool_How_To.tools.0.label>cover</Tool_How_To.tools.0.label>
+
+
+  <!-- Coupon Book -->
+
+  <Tool_Coupon_Book.label>coupon book</Tool_Coupon_Book.label>
+  <Tool_Coupon_Book.description>Save hundreds of dollars on sales, deals and more with this limited time offer. Only valid at participating traders.</Tool_Coupon_Book.description>
+  <Tool_Coupon_Book.tools.0.label>cover</Tool_Coupon_Book.tools.0.label>
+
+
+  <!-- Laptop -->
+
+  <Tool_Laptop.label>notebook</Tool_Laptop.label>
+  <Tool_Laptop.description>Comes complete with satellite hookup to the universal answer web, Dings.</Tool_Laptop.description>
+  <Tool_Laptop.tools.0.label>case</Tool_Laptop.tools.0.label>
+
+
+  <!-- Skill Saw -->
+
+  <Tool_Skill_Saw.label>skill Saw</Tool_Skill_Saw.label>
+  <Tool_Skill_Saw.description>Cuts through wood like butter, cuts through butter like... well, better not try that.</Tool_Skill_Saw.description>
+  <Tool_Skill_Saw.tools.0.label>handle</Tool_Skill_Saw.tools.0.label>
+  <Tool_Skill_Saw.tools.1.label>sawteeths</Tool_Skill_Saw.tools.1.label>
+
+
+  <!-- Power Drill -->
+
+  <Tool_Power_Drill.label>power drill</Tool_Power_Drill.label>
+  <Tool_Power_Drill.description>The best and fastest way to build things is just to put a lot of holes in it.</Tool_Power_Drill.description>
+  <Tool_Power_Drill.tools.0.label>handle</Tool_Power_Drill.tools.0.label>
+  <Tool_Power_Drill.tools.1.label>drill</Tool_Power_Drill.tools.1.label>
+
+
+  <!-- Scissors -->
+
+  <Tool_Scissors.label>scissors</Tool_Scissors.label>
+  <Tool_Scissors.description>Sharp tailor scissors with a comfortable handle. Comes with a thimble, less poking means more sewing.</Tool_Scissors.description>
+  <Tool_Scissors.tools.0.label>blade</Tool_Scissors.tools.0.label>
+
+
+  <!-- Whistle -->
+
+  <Tool_Whistle.label>whistle</Tool_Whistle.label>
+  <Tool_Whistle.description>When you blow it, you can't hear anything. But animals can!</Tool_Whistle.description>
+  <Tool_Whistle.tools.0.label>body</Tool_Whistle.tools.0.label>
+
+
+  <!-- Screwdriver -->
+
+  <Tool_Screwdriver.label>magnetic screwdriver</Tool_Screwdriver.label>
+  <Tool_Screwdriver.description>Greatly improves the sturdiness and ease of constructing.</Tool_Screwdriver.description>
+  <Tool_Screwdriver.tools.0.label>handle</Tool_Screwdriver.tools.0.label>
+  <Tool_Screwdriver.tools.1.label>point</Tool_Screwdriver.tools.1.label>
+
+
+  <!-- Saw -->
+
+  <Tool_Saw.label>foxtail</Tool_Saw.label>
+  <Tool_Saw.description>A saw used for cutting down trees, but not planting them.</Tool_Saw.description>
+  <Tool_Saw.tools.0.label>handle</Tool_Saw.tools.0.label>
+  <Tool_Saw.tools.1.label>edge</Tool_Saw.tools.1.label>
+
+
+  <!-- Chefs Knife -->
+
+  <Tool_Chefs_Knife.label>chef's knife</Tool_Chefs_Knife.label>
+  <Tool_Chefs_Knife.description>A sharp knife with a keen edge, curved for easy chopping of vegetables.</Tool_Chefs_Knife.description>
+  <Tool_Chefs_Knife.tools.0.label>handle</Tool_Chefs_Knife.tools.0.label>
+  <Tool_Chefs_Knife.tools.1.label>edge</Tool_Chefs_Knife.tools.1.label>
+  <Tool_Chefs_Knife.tools.2.label>point</Tool_Chefs_Knife.tools.2.label>
+
+
+  <!-- Skinning Knife -->
+
+  <Tool_Skinning_Knife.label>skinning Knife</Tool_Skinning_Knife.label>
+  <Tool_Skinning_Knife.description>A thin bladed flexible knife, designed to swiftly and efficiently remove skin from a carcass.</Tool_Skinning_Knife.description>
+  <Tool_Skinning_Knife.tools.0.label>handle</Tool_Skinning_Knife.tools.0.label>
+  <Tool_Skinning_Knife.tools.1.label>edge</Tool_Skinning_Knife.tools.1.label>
+  <Tool_Skinning_Knife.tools.2.label>point</Tool_Skinning_Knife.tools.2.label>
+
+
+  <!-- Sickle -->
+
+  <Tool_Sickle.label>sickle</Tool_Sickle.label>
+  <Tool_Sickle.description>A sharp curved hook, used for gathering plants and harvesting grains since thousands of years.</Tool_Sickle.description>
+  <Tool_Sickle.tools.0.label>handle</Tool_Sickle.tools.0.label>
+  <Tool_Sickle.tools.1.label>edge</Tool_Sickle.tools.1.label>
+  <Tool_Sickle.tools.2.label>point</Tool_Sickle.tools.2.label>
+
+
+  <!-- Shovel -->
+
+  <Tool_Shovel.label>shovel</Tool_Shovel.label>
+  <Tool_Shovel.description>A digging tool that makes moving earth much easier.</Tool_Shovel.description>
+  <Tool_Shovel.tools.0.label>handle</Tool_Shovel.tools.0.label>
+  <Tool_Shovel.tools.1.label>edge</Tool_Shovel.tools.1.label>
+  <Tool_Shovel.tools.2.label>point</Tool_Shovel.tools.2.label>
+  <Tool_Shovel.tools.3.label>head</Tool_Shovel.tools.3.label>
+
+
+  <!-- Smartphone -->
+
+  <Tool_Smartphone.label>smartphone</Tool_Smartphone.label>
+  <Tool_Smartphone.description>Smartphones make communications easier, are cheap, and widely available, but your pawns might have problems letting go. This exclusive version comes with a cyberware interface with multiport adapter, global hook detection, a cargobyte mpX list, and beats earphones, to make the day more enjoyable.\n\nPawns don't want to use this as a weapon, it counts as their equipment though.</Tool_Smartphone.description>
+
+
+</LanguageData>

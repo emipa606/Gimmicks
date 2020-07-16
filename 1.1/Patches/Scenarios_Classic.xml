@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- XND Patch # Crashlanded -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Shovel</thingDef>
+        <stuff>Steel</stuff>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Screwdriver</thingDef>
+        <stuff>Steel</stuff>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Saw</thingDef>
+        <stuff>Steel</stuff>
+      </li>
+    </value>
+  </Operation>
+  <!-- Lost Tribe -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="LostTribe"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Skinning_Knife</thingDef>
+        <stuff>Steel</stuff>
+        <!-- Gold -->
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Chefs_Knife</thingDef>
+        <stuff>Steel</stuff>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Scissors</thingDef>
+        <stuff>Steel</stuff>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Sickle</thingDef>
+        <stuff>Steel</stuff>
+      </li>
+    </value>
+  </Operation>
+  <!-- Rich Explorer -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="TheRichExplorer"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Tool_Smartphone</thingDef>
+      </li>
+    </value>
+  </Operation>
+</Patch>

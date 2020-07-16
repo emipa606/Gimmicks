@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StonecuttingSpeed.label>石切り速度</StonecuttingSpeed.label>
+  <StonecuttingSpeed.description>この人物が岩の塊から石ブロックを切出す速度です。</StonecuttingSpeed.description>
+</LanguageData>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, Gimmicks_TableCrafting -->
+  <Make_Tool_Pillow.label>枕を作る</Make_Tool_Pillow.label>
+  <Make_Tool_Pillow.description>枕を作る。</Make_Tool_Pillow.description>
+  <Make_Tool_Pillow.jobString>枕を製作中</Make_Tool_Pillow.jobString>
+  <!-- Recipe Users: CraftingSpot, Gimmicks_TableCrafting -->
+  <Make_Tool_Whip.label>鞭を作る</Make_Tool_Whip.label>
+  <Make_Tool_Whip.description>鞭を作る。</Make_Tool_Whip.description>
+  <Make_Tool_Whip.jobString>鞭を製作中</Make_Tool_Whip.jobString>
+  <Make_Tool_Fan.label>扇子を作る</Make_Tool_Fan.label>
+  <Make_Tool_Fan.description>扇子を作る。</Make_Tool_Fan.description>
+  <Make_Tool_Fan.jobString>扇子を製作中</Make_Tool_Fan.jobString>
+  <!-- Recipe Users: FabricationBench -->
+  <Make_Tool_Laptop.label>ノート型PCを製造する</Make_Tool_Laptop.label>
+  <Make_Tool_Laptop.description>ノート型PCを製造する。</Make_Tool_Laptop.description>
+  <Make_Tool_Laptop.jobString>ノート型PCを製作中</Make_Tool_Laptop.jobString>
+  <!-- Recipe Users: TableMachining, Gimmicks_TableCrafting -->
+  <Make_Tool_Skill_Saw.label>電動丸ノコを作る</Make_Tool_Skill_Saw.label>
+  <Make_Tool_Skill_Saw.description>電動丸ノコを作る。</Make_Tool_Skill_Saw.description>
+  <Make_Tool_Skill_Saw.jobString>電動丸ノコを製作中</Make_Tool_Skill_Saw.jobString>
+  <Make_Tool_Power_Drill.label>電動ドリルを作る</Make_Tool_Power_Drill.label>
+  <Make_Tool_Power_Drill.description>電動ドリルを作る。</Make_Tool_Power_Drill.description>
+  <Make_Tool_Power_Drill.jobString>電動ドリルを製作中</Make_Tool_Power_Drill.jobString>
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, Gimmicks_TableCrafting -->
+  <Make_Tool_Scissors.label>ハサミを作る</Make_Tool_Scissors.label>
+  <Make_Tool_Scissors.description>ハサミを作る。</Make_Tool_Scissors.description>
+  <Make_Tool_Scissors.jobString>ハサミを製作中</Make_Tool_Scissors.jobString>
+  <Make_Tool_Whistle.label>ホイッスルを作る</Make_Tool_Whistle.label>
+  <Make_Tool_Whistle.description>ホイッスルを作る。</Make_Tool_Whistle.description>
+  <Make_Tool_Whistle.jobString>ホイッスルを製作中</Make_Tool_Whistle.jobString>
+  <Make_Tool_Screwdriver.label>磁石ドライバーを作る</Make_Tool_Screwdriver.label>
+  <Make_Tool_Screwdriver.description>磁石ドライバーを作る。</Make_Tool_Screwdriver.description>
+  <Make_Tool_Screwdriver.jobString>磁石ドライバーを製作中</Make_Tool_Screwdriver.jobString>
+  <Make_Tool_Saw.label>押切ノコを作る</Make_Tool_Saw.label>
+  <Make_Tool_Saw.description>押切ノコを作る。</Make_Tool_Saw.description>
+  <Make_Tool_Saw.jobString>押切ノコを製作中</Make_Tool_Saw.jobString>
+  <Make_Tool_Chefs_Knife.label>台所包丁を作る</Make_Tool_Chefs_Knife.label>
+  <Make_Tool_Chefs_Knife.description>台所包丁を作る。</Make_Tool_Chefs_Knife.description>
+  <Make_Tool_Chefs_Knife.jobString>台所包丁を製作中</Make_Tool_Chefs_Knife.jobString>
+  <Make_Tool_Skinning_Knife.label>皮剥ぎ用ナイフを作る</Make_Tool_Skinning_Knife.label>
+  <Make_Tool_Skinning_Knife.description>皮剥ぎ用ナイフを作る。</Make_Tool_Skinning_Knife.description>
+  <Make_Tool_Skinning_Knife.jobString>皮剥ぎ用ナイフを製作中</Make_Tool_Skinning_Knife.jobString>
+  <Make_Tool_Sickle.label>草刈りカマを作る</Make_Tool_Sickle.label>
+  <Make_Tool_Sickle.description>草刈りカマを作る。</Make_Tool_Sickle.description>
+  <Make_Tool_Sickle.jobString>草刈りカマを製作中</Make_Tool_Sickle.jobString>
+  <Make_Tool_Shovel.label>シャベルを作る</Make_Tool_Shovel.label>
+  <Make_Tool_Shovel.description>シャベルを作る。</Make_Tool_Shovel.description>
+  <Make_Tool_Shovel.jobString>シャベルを製作中</Make_Tool_Shovel.jobString>
+  <!-- Recipe Users: FabricationBench -->
+  <Make_Tool_Smartphone.label>スマートフォンを作る</Make_Tool_Smartphone.label>
+  <Make_Tool_Smartphone.description>スマートフォンを作る。</Make_Tool_Smartphone.description>
+  <Make_Tool_Smartphone.jobString>スマートフォンを製作中</Make_Tool_Smartphone.jobString>
+</LanguageData>

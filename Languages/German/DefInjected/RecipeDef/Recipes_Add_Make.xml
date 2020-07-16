@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipe Users: FabricationBench -->
+  <Make_Tool_Smartphone.label>Fabriziere ein Smartphone</Make_Tool_Smartphone.label>
+  <Make_Tool_Smartphone.description>Stelle ein Smartphone her.</Make_Tool_Smartphone.description>
+  <Make_Tool_Smartphone.jobString>Mikroelektronik-Manufaktur.</Make_Tool_Smartphone.jobString>
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
+  <Make_Tool_Pillow.label>Fabriziere ein Kissen</Make_Tool_Pillow.label>
+  <Make_Tool_Pillow.description>Stelle ein Kissen her.</Make_Tool_Pillow.description>
+  <Make_Tool_Pillow.jobString>Stopft Kissenbezüge.</Make_Tool_Pillow.jobString>
+  <!-- Recipe Users: CraftingSpot -->
+  <Make_Tool_Whip.label>Fabriziere eine Peitsche</Make_Tool_Whip.label>
+  <Make_Tool_Whip.description>Stelle eine Peitsche her.</Make_Tool_Whip.description>
+  <Make_Tool_Whip.jobString>Werkzeug-Anfertigung.</Make_Tool_Whip.jobString>
+  <Make_Tool_Fan.label>Fabriziere einen Fächer</Make_Tool_Fan.label>
+  <Make_Tool_Fan.description>Stelle einen Fächer her.</Make_Tool_Fan.description>
+  <Make_Tool_Fan.jobString>Werkzeug-Anfertigung.</Make_Tool_Fan.jobString>
+  <!-- Recipe Users: FabricationBench -->
+  <Make_Tool_Laptop.label>Fabriziere einen Laptop</Make_Tool_Laptop.label>
+  <Make_Tool_Laptop.description>Stelle einen Framework Laptop her.</Make_Tool_Laptop.description>
+  <Make_Tool_Laptop.jobString>Mikroelektronik-Manufaktur.</Make_Tool_Laptop.jobString>
+  <!-- Recipe Users: TableMachining -->
+  <Make_Tool_Skill_Saw.label>Fabriziere eine Skill Saw</Make_Tool_Skill_Saw.label>
+  <Make_Tool_Skill_Saw.description>Stelle eine Skill Saw her.</Make_Tool_Skill_Saw.description>
+  <Make_Tool_Skill_Saw.jobString>Werkzeug-Anfertigung.</Make_Tool_Skill_Saw.jobString>
+  <Make_Tool_Power_Drill.label>Fabriziere einen Power Drill</Make_Tool_Power_Drill.label>
+  <Make_Tool_Power_Drill.description>Stelle einen Power Drill her.</Make_Tool_Power_Drill.description>
+  <Make_Tool_Power_Drill.jobString>Werkzeug-Anfertigung.</Make_Tool_Power_Drill.jobString>
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+  <Make_Tool_Thimble.label>Fabriziere einen Fingerhut</Make_Tool_Thimble.label>
+  <Make_Tool_Thimble.description>Stelle einen Fingerhut her.</Make_Tool_Thimble.description>
+  <Make_Tool_Thimble.jobString>Werkzeug-Anfertigung.</Make_Tool_Thimble.jobString>
+  <Make_Tool_Whistle.label>Fabriziere eine Hundepfeife</Make_Tool_Whistle.label>
+  <Make_Tool_Whistle.description>Stelle eine Hundepfeife her.</Make_Tool_Whistle.description>
+  <Make_Tool_Whistle.jobString>Werkzeug-Anfertigung.</Make_Tool_Whistle.jobString>
+  <Make_Tool_Screwdriver.label>Fabriziere einen Schraubenzieher</Make_Tool_Screwdriver.label>
+  <Make_Tool_Screwdriver.description>Stelle einen magnetischen Schraubenzieher her.</Make_Tool_Screwdriver.description>
+  <Make_Tool_Screwdriver.jobString>Werkzeug-Anfertigung.</Make_Tool_Screwdriver.jobString>
+  <Make_Tool_Saw.label>Fabriziere einen Fuchsschwanz</Make_Tool_Saw.label>
+  <Make_Tool_Saw.description>Stelle einen Säge her.</Make_Tool_Saw.description>
+  <Make_Tool_Saw.jobString>Werkzeug-Anfertigung.</Make_Tool_Saw.jobString>
+  <Make_Tool_Chefs_Knife.label>Fabriziere ein Küchenmesser</Make_Tool_Chefs_Knife.label>
+  <Make_Tool_Chefs_Knife.description>Stelle eine Küchenmesser her.</Make_Tool_Chefs_Knife.description>
+  <Make_Tool_Chefs_Knife.jobString>Werkzeug-Anfertigung.</Make_Tool_Chefs_Knife.jobString>
+  <Make_Tool_Skinning_Knife.label>Fabriziere ein Kürschnermesser</Make_Tool_Skinning_Knife.label>
+  <Make_Tool_Skinning_Knife.description>Stelle eine Kürschnermesser her.</Make_Tool_Skinning_Knife.description>
+  <Make_Tool_Skinning_Knife.jobString>Werkzeug-Anfertigung.</Make_Tool_Skinning_Knife.jobString>
+  <Make_Tool_Sickle.label>Fabriziere eine Druiden Sichel</Make_Tool_Sickle.label>
+  <Make_Tool_Sickle.description>Stelle eine Druiden-Sichel her.</Make_Tool_Sickle.description>
+  <Make_Tool_Sickle.jobString>Werkzeug-Anfertigung.</Make_Tool_Sickle.jobString>
+  <Make_Tool_Shovel.label>Baue eine Schaufel</Make_Tool_Shovel.label>
+  <Make_Tool_Shovel.description>Stelle eine Peitsche her.</Make_Tool_Shovel.description>
+  <Make_Tool_Shovel.jobString>Werkzeug-Anfertigung.</Make_Tool_Shovel.jobString>
+</LanguageData>
