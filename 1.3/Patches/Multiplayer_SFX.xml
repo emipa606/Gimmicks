@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Multiplayer Support -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Multiplayer</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThoughtDef[defName="Trunken_WearingWhip"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
