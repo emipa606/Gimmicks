@@ -1,23 +1,16 @@
 # Gimmicks
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Trunken, Madman666s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1838946720
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+- Added dependency to https://steamcommunity.com/workshop/filedetails/?id=2543371889]Enable Oversized Weapons instead of bundling an outdated version 
 
+![Image](https://i.imgur.com/pufA0kM.png)
 
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/Gimmicks]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Contains an item collection with stat bonis to help your colonists on their menial everyday tasks.
@@ -25,12 +18,12 @@ Contains an item collection with stat bonis to help your colonists on their meni
 # Content
 
 
-Around 18 items and a workbench, which includes recipes by supported mods. All tools are automatically categorized by patch and findable under *Weapons &gt; Tools* in the storage. Your technological stage matters (Skill too). 
+Around 18 items and a workbench, which includes recipes by supported mods. All tools are automatically categorized by patch and findable under *Weapons  Tools* in the storage. Your technological stage matters (Skill too). 
 
  - Crafting Table with all crossover mod recipes
  - Traders only: Interstellar Encyclopedia, How To, Coupon Book, Flowers
  - Forged #1: Screwdriver, Sickle, Scissors, Whistle
- - Forged #2: Chef&apos;s Knife, Skinning Knife, Saw, Spade
+ - Forged #2: Chef's Knife, Skinning Knife, Saw, Spade
  - Tailored: Pillow
  - Crafted: Lash, Fan (early)
  - Mechanics: Power Drill, Skill Saw
@@ -53,7 +46,7 @@ This mod introduces several useful tools for your pawns to craft, trade and util
  - Whistle *(+50% Training)*
  - Lash *(+50% Taming, +5 Mood)*
  - Foxtail *(+33% Treefelling, +10% Workspeed)*
- - Chef&apos;s Knife *(+33% Cooking, -20% Food Poison, +10% Butchery)*
+ - Chef's Knife *(+33% Cooking, -20% Food Poison, +10% Butchery)*
  - Skinning Knife *(+33% Animals, +20% Yield, +10% Butchery)*
  - Sickle *(+33% Harvest)*
  - Spade *(+15% Mining, +15% Plants)*
@@ -61,19 +54,19 @@ This mod introduces several useful tools for your pawns to craft, trade and util
  - Pillow *(-5% Mental Breakdowns, -%25 Sleep)*
  - Fan *(+10 Cooling)*
 
-Remember tools are weapons. They&apos;re sharp and heavy. Even a pillow can kill someone with enough effort.
+Remember tools are weapons. They're sharp and heavy. Even a pillow can kill someone with enough effort.
 
 # Patches
 
 
 [code] - Vanilla Weapons Expanded *(Workbench, Recategorization, Whip: +5 Mood)*
  - https://steamcommunity.com/sharedfiles/filedetails/?id=1851407975]Medieval Madness *(Workbench, Recategorization, Tweaks)*
- - Dead Goat&apos;s Weapon Pack *(Deadman&apos;s Scythe +25% Plants, +10% Yield)*
- - Dead Goat&apos;s Weapon Pack *(Butcher&apos;s Cleaver: +33% Butchering, +10% Cooking)*
+ - Dead Goat's Weapon Pack *(Deadman's Scythe +25% Plants, +10% Yield)*
+ - Dead Goat's Weapon Pack *(Butcher's Cleaver: +33% Butchering, +10% Cooking)*
  - Right Tool Rebalanced *(Adjustments and Recategorization)*
  - [XND] Survival Tools *(Recategorization)*[/code]
 
-Patches in handy stats on &quot;Cleaver&quot; and Scythe&quot; when DGWP is installed or takes care of your tool organization. Ancients ruins can have tools inside. New colonies get some extras.
+Patches in handy stats on "Cleaver" and Scythe" when DGWP is installed or takes care of your tool organization. Ancients ruins can have tools inside. New colonies get some extras.
 
 # Compatibility and Loadorder
 
@@ -82,10 +75,10 @@ Load Gimmicks late in the list, especially behind listed or similiar mods.
 
 [code] - Multiplayer
  - Combat Extended (CE)
- - Dual Wield *(Butcher&apos;s Cleaver + Chef&apos;s Knife for your cook)*
+ - Dual Wield *(Butcher's Cleaver + Chef's Knife for your cook)*
  - EdB Prepare Carefully *(Choose your tools to start with)*
  - Vanilla Weapons Expanded (https://steamcommunity.com/sharedfiles/filedetails/?id=1814383360]Link)
- - Dead Goat&apos;s Weapon Pack
+ - Dead Goat's Weapon Pack
  - Right Tool: Rebalanced (https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658]Link)
  - Surival Tools  (https://steamcommunity.com/sharedfiles/filedetails/?id=1566269698]Link)
  - Gimmicks - load it here -[/code]
@@ -115,7 +108,7 @@ This mod has nostalic meaning to me, and i wanted to thank Madman for all his wo
 **Version 2.0:** Graphic overhaul. Functionality restored.
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

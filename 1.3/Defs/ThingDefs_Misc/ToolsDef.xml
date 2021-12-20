@@ -11,6 +11,7 @@
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
     <selectable>True</selectable>
+    <smeltable>True</smeltable>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
