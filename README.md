@@ -5,7 +5,7 @@
 Update of Trunken, Madman666s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1838946720
 
-- Added dependency to https://steamcommunity.com/workshop/filedetails/?id=2543371889]Enable Oversized Weapons instead of bundling an outdated version 
+- The CE-patches are now included in the main CE-mod instead
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -118,6 +118,7 @@ This mod has nostalic meaning to me, and i wanted to thank Madman for all his wo
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

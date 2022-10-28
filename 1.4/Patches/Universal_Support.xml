@@ -1,0 +1,908 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Patch Vanilla Weapons Expanded -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Tools -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Tool_Shovel"]/label</xpath>
+          <value>
+            <label>spade</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Tool_Whip"]/label</xpath>
+          <value>
+            <label>lash</label>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Pickaxe" or defName="VWE_MeleeWeapon_Hammer" or defName="VWE_MeleeWeapon_Shovel" or defName="VWE_MeleeWeapon_Wrench" or defName="VWE_MeleeWeapon_Cleaver" or defName="VWE_MeleeWeapon_Scalpel" or defName="VWE_MeleeWeapon_Axe" or defName="VWE_Tool_Whip"]/recipeMaker/recipeUsers</xpath>
+          <value>
+            <li>Gimmicks_TableCrafting</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Pickaxe" or defName="VWE_MeleeWeapon_Hammer" or defName="VWE_MeleeWeapon_Shovel" or defName="VWE_MeleeWeapon_Wrench" or defName="VWE_MeleeWeapon_Cleaver" or defName="VWE_MeleeWeapon_Scalpel" or defName="VWE_MeleeWeapon_Axe" or defName="VWE_Tool_Whip"]</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Tools</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Tool_Whip"]/verbs/li/soundCast</xpath>
+          <value>
+            <soundCast>VWE_Shot_Whip</soundCast>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Survival Tools by XND -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Survival Tools</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Tools -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SurvivalTools_Sickle"]/label</xpath>
+          <value>
+            <label>druid sickle</label>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="SurvivalTools_Axe" or defName="SurvivalTools_Pickaxe" or defName="SurvivalTools_Hammer" or defName="SurvivalTools_Sickle" or defName="SurvivalTools_Multitool"]/recipeMaker/recipeUsers</xpath>
+          <value>
+            <li>Gimmicks_TableCrafting</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SurvivalTools_Axe" or defName="SurvivalTools_Pickaxe" or defName="SurvivalTools_Hammer" or defName="SurvivalTools_Sickle" or defName="SurvivalTools_Multitool"]/thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Tools</li>
+            </thingCategories>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Dead Goat's Weapon Pack # Weapons to Tools -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Pickaxe"]/equippedStatOffsets</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Cleaver"]</xpath>
+        <value>
+          <equippedStatOffsets />
+        </value>
+      </li>
+      <!-- at this point Cleaver has equippedStatOffsets -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+        <value>
+          <ButcheryFleshSpeed>0.33</ButcheryFleshSpeed>
+          <CookSpeed>0.1</CookSpeed>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Mod Support for Dead Goat's Weapon Pack # Weapons to Tools -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Cleaver"]</xpath>
+        <value>
+          <equippedStatOffsets />
+        </value>
+      </li>
+      <!-- at this point Cleaver has equippedStatOffsets -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+        <value>
+          <ButcheryFleshSpeed>0.33</ButcheryFleshSpeed>
+          <CookSpeed>0.1</CookSpeed>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Scythe"]/equippedStatOffsets</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Scythe"]</xpath>
+        <value>
+          <equippedStatOffsets />
+        </value>
+      </li>
+      <!-- at this point Scythe has equippedStatOffsets -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="3dg_MeleeWeapon_Scythe"]/equippedStatOffsets</xpath>
+        <value>
+          <PlantHarvestYield>0.1</PlantHarvestYield>
+          <PlantWorkSpeed>0.25</PlantWorkSpeed>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="DGWP_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DGWP_MeleeWeapon_Cleaver"]</xpath>
+        <value>
+          <equippedStatOffsets />
+        </value>
+      </li>
+      <!-- at this point Scythe has equippedStatOffsets -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DGWP_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+        <value>
+          <ButcheryFleshSpeed>0.33</ButcheryFleshSpeed>
+          <CookSpeed>0.1</CookSpeed>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="DGWP_MeleeWeapon_Scythe"]/equippedStatOffsets</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DGWP_MeleeWeapon_Scythe"]</xpath>
+        <value>
+          <equippedStatOffsets />
+        </value>
+      </li>
+      <!-- at this point Scythe has equippedStatOffsets -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DGWP_MeleeWeapon_Scythe"]/equippedStatOffsets</xpath>
+        <value>
+          <PlantHarvestYield>0.1</PlantHarvestYield>
+          <PlantWorkSpeed>0.25</PlantWorkSpeed>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Mod Support for Right Tools Rebalanced -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="RTFTJ_Neo_Pick" or defName="RTFTJ_Neo_Shovel" or defName="RTFTJ_Pickaxe" or defName="RTFTJ_HandAxe" or defName="RTFTJ_Hammer" or defName="RTFTJ_Drill" or defName="RTFTJ_Autohammer" or defName="RTFTJ_Chainsaw"]/thingCategories</xpath>
+      </li>
+      <!-- Categorizes to Tools -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RTFTJ_Neo_Pick" or defName="RTFTJ_Neo_Shovel" or defName="RTFTJ_Pickaxe" or defName="RTFTJ_HandAxe" or defName="RTFTJ_Hammer" or defName="RTFTJ_Drill" or defName="RTFTJ_Autohammer" or defName="RTFTJ_Chainsaw"]/thingCategories</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Tools</li>
+          </thingCategories>
+        </value>
+      </li>
+      <!-- Symphony Patch -->
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDefs[@Name="BaseTool"]/thingCategories/li[text()='WeaponsMelee']</xpath>
+        <!-- Weapons on RTR -->
+      </li>
+    </operations>
+  </Operation>
+  <!-- Mod Support for Right Tools Rebalanced -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Right Tool: Rebalanced</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Add WorkGivers -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeStonePick" or defName="MakeStoneShovel" or defName="MakePickaxe" or defName="MakeHandaxe" or defName="MakeHammer" or defName="MakeDrill" or defName="MakeChainsaw" or defName="MakeAutohammer" or defName="MakeToolbelt"]/recipeUsers</xpath>
+          <value>
+            <li>Gimmicks_TableCrafting</li>
+          </value>
+        </li>
+        <!-- Temporary Quality Bugfix -->
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDefs[@Name="BaseToolIndustrial"]/comps</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Right Tools Rebalanced  -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Right Tool: Rebalanced</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Categorizes to Tools -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Neo_Pick" or defName="RTFTJ_Neo_Shovel"]</xpath>
+          <value>
+            <thingCategories>
+              <li>Tools</li>
+            </thingCategories>
+          </value>
+        </li>
+        <!-- Adds Recipes to Tools Workbench -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="BaseTools_Forged" or @Name="BaseTools_Machined" or @Name="BaseTools_Crafted" or @Name="BaseTools_Components"]/recipeMaker/recipeUsers</xpath>
+          <value>
+            <li>RTFTJToolBench</li>
+          </value>
+        </li>
+        <!-- Removes Advanced Toolkit -->
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_ToolbeltAdv"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="MakeToolbeltAdv"]</xpath>
+        </li>
+        <!-- Adjusts all stats # Pickaxe -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Pickaxe"]/equippedStatOffsets/MiningSpeed</xpath>
+          <value>
+            <MiningSpeed>0.10</MiningSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Pickaxe"]/equippedStatOffsets/MiningYield</xpath>
+          <value>
+            <MiningYield>0.10</MiningYield>
+          </value>
+        </li>
+        <!-- # Drill -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Drill"]/equippedStatOffsets/MiningSpeed</xpath>
+          <value>
+            <MiningSpeed>0.5</MiningSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Drill"]/equippedStatOffsets/MiningYield</xpath>
+          <value>
+            <MiningYield>0.2</MiningYield>
+          </value>
+        </li>
+        <!-- # HandAxe -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_HandAxe"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+          <value>
+            <PlantWorkSpeed>0.2</PlantWorkSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_HandAxe"]/equippedStatOffsets/PlantHarvestYield</xpath>
+        </li>
+        <!-- # Chainsaw -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Chainsaw"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+          <value>
+            <PlantWorkSpeed>0.5</PlantWorkSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Chainsaw"]/equippedStatOffsets/PlantHarvestYield</xpath>
+          <value>
+            <PlantHarvestYield>-0.1</PlantHarvestYield>
+          </value>
+        </li>
+        <!-- # Hammer -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Hammer"]/equippedStatOffsets/ConstructionSpeed</xpath>
+          <value>
+            <ConstructionSpeed>0.25</ConstructionSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Hammer"]/equippedStatOffsets/ConstructSuccessChance</xpath>
+          <value>
+            <ConstructSuccessChance>0.2</ConstructSuccessChance>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Hammer"]/equippedStatOffsets/FixBrokenDownBuildingSuccessChance</xpath>
+          <value>
+            <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+          </value>
+        </li>
+        <!-- # Auto-Hammer -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Autohammer"]/equippedStatOffsets/ConstructionSpeed</xpath>
+          <value>
+            <ConstructionSpeed>0.5</ConstructionSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Autohammer"]/equippedStatOffsets/ConstructSuccessChance</xpath>
+          <value>
+            <ConstructSuccessChance>0.1</ConstructSuccessChance>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Autohammer"]/equippedStatOffsets/FixBrokenDownBuildingSuccessChance</xpath>
+          <value>
+            <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Autohammer"]/equippedStatOffsets</xpath>
+          <value>
+            <SmithingSpeed>0.1</SmithingSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Autohammer"]/equippedStatOffsets</xpath>
+          <value>
+            <SmoothingSpeed>0.1</SmoothingSpeed>
+          </value>
+        </li>
+        <!-- Toolbelt Nerf -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/ConstructionSpeed</xpath>
+          <value>
+            <ConstructionSpeed>0.25</ConstructionSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/ConstructSuccessChance</xpath>
+          <value>
+            <ConstructSuccessChance>0.2</ConstructSuccessChance>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/FixBrokenDownBuildingSuccessChance</xpath>
+          <value>
+            <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+          <value>
+            <PlantWorkSpeed>0.2</PlantWorkSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/PlantHarvestYield</xpath>
+          <value>
+            <PlantHarvestYield>0.2</PlantHarvestYield>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/MiningSpeed</xpath>
+          <value>
+            <MiningSpeed>0.2</MiningSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/MiningYield</xpath>
+          <value>
+            <MiningYield>0.2</MiningYield>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Patch system # Toolmetrics Redux -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Toolmetrics Redux</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Stonecutting -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[@Name="MakeStoneBlocksBase"]/workSpeedStat</xpath>
+          <value>
+            <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+          </value>
+        </li>
+        <!-- Increase efficiency Max -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/StatDef[defName="AnimalGatherYield"]/maxValue</xpath>
+          <value>
+            <maxValue>2</maxValue>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/StatDef[defName="PlantHarvestYield"]/maxValue</xpath>
+          <value>
+            <maxValue>2</maxValue>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/StatDef[defName="ButcheryFleshEfficiency"]/maxValue</xpath>
+          <value>
+            <maxValue>2</maxValue>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/StatDef[defName="ButcheryMechanoidEfficiency"]/maxValue</xpath>
+          <value>
+            <maxValue>2</maxValue>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Toolmetrics Redux</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Patch in stock for trade -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Coupon_Book</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Laptop</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_How_To</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_CombatSupplier"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_How_To</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_PirateMerchant"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_How_To</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_PirateMerchant"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Skill_Saw</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_PirateMerchant"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Power_Drill</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_How_To</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Encyclopedia</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Flowers</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Laptop</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <!-- Caravans -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Coupon_Book</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_How_To</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_PirateMerchant"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_How_To</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Encyclopedia</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Flowers</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Laptop</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <!-- Outlander Base -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_How_To</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Tool_Laptop</thingDef>
+              <countRange>
+                <min>0</min>
+                <max>1</max>
+              </countRange>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <!-- Adjustments for Medieval Madness: Tools of the Trade -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Madness: Tools of the Trade</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[@Name="MM_MWeaponNotStuffed"]/thingCategories</xpath>
+        </li>
+        <!-- Categorizes to Tools -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="MM_BasicTools_1h" or @Name="MM_BasicTools_2h"]</xpath>
+          <value>
+            <thingCategories>
+              <li>Tools</li>
+            </thingCategories>
+          </value>
+        </li>
+        <!-- Recategorizes to WeaponsMelee -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="MM_MeleeTier1_1h" or @Name="MM_MeleeTier2_1h" or @Name="MM_MeleeTier3_1h" or @Name="MM_MeleeTier4_1h" or @Name="MM_MeleeTier1_2h" or @Name="MM_MeleeTier2_2h" or @Name="MM_MeleeTier3_2h" or @Name="MM_MeleeTier4_2h"]</xpath>
+          <value>
+            <thingCategories>
+              <li>WeaponsMelee</li>
+            </thingCategories>
+          </value>
+        </li>
+        <!-- Crafting -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="MM_BasicTools_1h" or @Name="MM_BasicTools_2h"]/recipeMaker/recipeUsers</xpath>
+          <value>
+            <li>Gimmicks_TableCrafting</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Adjustments for Medieval Madness: Tools of the Trade -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Madness: Tools of the Trade</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Woodcutters Axe -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="MM_Woodcutteraxe"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+          <value>
+            <PlantWorkSpeed>0.25</PlantWorkSpeed>
+          </value>
+        </li>
+        <!-- Pickaxe -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="MM_pickaxe"]/equippedStatOffsets/MiningSpeed</xpath>
+          <value>
+            <MiningSpeed>0.15</MiningSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="MM_pickaxe"]/equippedStatOffsets/MiningYield</xpath>
+          <value>
+            <MiningYield>0.15</MiningYield>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Adjustments for Vanilla Weapons Expanded and Medieval Madness, when both mods are found -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Madness: Tools of the Trade</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded</li>
+          </mods>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="MM_SHammer"]/equippedStatOffsets</xpath>
+            <value>
+              <SmithingSpeed>0.33</SmithingSpeed>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Madness: Tools of the Trade</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded</li>
+          </mods>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="MM_SHammer"]/label</xpath>
+            <value>
+              <label>forge hammer</label>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Madness: Tools of the Trade</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded</li>
+          </mods>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="MM_pickaxe"]/label</xpath>
+            <value>
+              <label>miner's pick</label>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Adjustments for Right Tool: Rebalanced and Vanilla Weapons Expanded, when both mods are found -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Right Tool: Rebalanced</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded</li>
+          </mods>
+          <!-- Currently prohibited Labels for Right Tools Rebalanced -->
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RTFTJ_Pickaxe"]/label</xpath>
+            <value>
+              <label>mattock</label>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Right Tool: Rebalanced</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded</li>
+          </mods>
+          <!-- Currently prohibited Labels for Right Tools Rebalanced -->
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RTFTJ_Hammer"]/label</xpath>
+            <value>
+              <label>claw hammer</label>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Repair Vanilla Researches when MM is found -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Madness: Tools of the Trade</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- New Research Tab -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ResearchTabDef>
+              <defName>GResearchTabMedievalMadness</defName>
+              <label>Medieval Madness</label>
+            </ResearchTabDef>
+          </value>
+        </li>
+        <!-- Readjust -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ResearchProjectDef[defName="BasicTools" or defName="ThrowingWeapons" or defName="AdvancedMeleeWeapons" or defName="HeavyWeapons" or defName="BasicCrossbows" or defName="MultishotCrossbows" or defName="HeavyCrossbows" or defName="LongBows"]</xpath>
+          <value>
+            <tab>GResearchTabMedievalMadness</tab>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
