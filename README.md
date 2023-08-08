@@ -7,7 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1838946720
 
 - The CE-patches are now included in the main CE-mod instead
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/CN9Rs5X.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
@@ -122,3 +122,4 @@ This mod has nostalic meaning to me, and i wanted to thank Madman for all his wo
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2168169520]Last updated 2023-08-08
